@@ -181,6 +181,14 @@ review($product)->avg('recommended');
 review($product)->avg('recommended', 0); // precision is 2 by default
 ```
 
+### Reviewable Query Builder
+
+Get the review query builder instance.
+
+```php
+review($product)->query()->doSomething();
+```
+
 ### Eager Loading
 
 ```php
