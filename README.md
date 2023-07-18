@@ -222,6 +222,14 @@ use Larastash\Reviews\Models\Review;
 Review::withType(Product::class)->count();
 ```
 
+### Get User Reviews
+
+This will be available if you add the `Larastash\Reviews\Concerns\Reviewer` trait to the `User` model.
+
+```php
+auth()->user()->reviews;
+```
+
 ## Helpers
 
 ### `review()`
