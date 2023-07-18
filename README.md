@@ -23,9 +23,7 @@ After installing the package, publish migration and config files:
 php artisan vendor:publish --tag="larastash:reviews"
 ```
 
-> **Note**
->
-> You can edit migration and set `foreignUuid` if your user model uses a UUID.
+> **Note** You can edit migration and set `foreignUuid` if your user model uses a UUID.
 
 ## Prepare Models
 
@@ -102,10 +100,8 @@ review($product)->extra(['approved' => false, 'recommended' => 1])->publish(5);
 review($product)->with('approved', false)->with('recommended', 1)->publish(5);
 ```
 
-> **Note**
->
-> You can also work with this data, for example, choose an average extra value or get only approved reviews.
->
+> **Note** You can also work with this data, for example, choose an average extra value or get only approved reviews.
+
 ### Another User (Reviewer)
 
 Publish review as another user.
@@ -115,9 +111,7 @@ review($product)->as(User::find(1337))->publish(5);
 review($product)->as(1337)->publish(5);
 ```
 
-> **Note**
->
-> By default, the overview is owned by the current authorized user (by `Auth::id()`).
+> **Note** By default, the overview is owned by the current authorized user (by `Auth::id()`).
 
 ### Update Review
 
