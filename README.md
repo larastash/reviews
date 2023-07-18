@@ -6,7 +6,7 @@ With this package, you can easily manage reviews for various reviewable entities
 
 ## Requirements
 
-- Laravel 10;
+- Laravel ^10;
 - PHP ^8.1;
 
 ## Installation
