@@ -4,6 +4,11 @@ The Larastash Reviews package is a powerful Laravel package that enables you to 
 
 With this package, you can easily manage reviews for various reviewable entities and perform various review-related operations.
 
+## Requirements
+
+- Laravel 10;
+- PHP ^8.1;
+
 ## Installation
 
 To install the Larastash Reviews package, you can use Composer:
