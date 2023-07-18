@@ -1,4 +1,4 @@
-# Laravel Reviews
+# 💬⭐ Laravel Reviews
 
 The Larastash Reviews package is a powerful Laravel package that enables you to add review functionalities to your Eloquent models.
 
